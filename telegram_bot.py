@@ -37,7 +37,7 @@ if not TOKEN:
     logger.error("La variable d'environnement TG_BOT_TOKEN n'est pas définie.")
     sys.exit(1)
 
-WHISPER_MODEL = os.environ.get("WHISPER_MODEL", "small")
+WHISPER_MODEL = os.environ.get("WHISPER_MODEL", "tiny")
 FONT_PATH = "fonts/Montserrat-ExtraBold.ttf"
 
 EXECUTOR = ThreadPoolExecutor(max_workers=2)
