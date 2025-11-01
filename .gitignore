@@ -1,0 +1,6 @@
+bot_env/
+outputvideos/
+__pycache__/
+*.pyc
+*.log
+
